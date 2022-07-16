@@ -1,6 +1,6 @@
 # BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts
 
-For more detail, you can check [our paper.](https://arxiv.org/abs/2206.00372)
+For more detail, you can check [our paper.](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.552.pdf)
 
 ## Abstract
 
@@ -78,10 +78,17 @@ You can find the dataset [here.](https://www.kaggle.com/datasets/naurosromim/bds
 ## Bibtex
 
 ```
-@article{romim2022bd,
-  title={BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts},
-  author={Romim, Nauros and Ahmed, Mosahed and Islam, Md and Sharma, Arnab Sen and Talukder, Hriteshwar and Amin, Mohammad Ruhul and others},
-  journal={arXiv preprint arXiv:2206.00372},
-  year={2022}
+@InProceedings{romim-EtAl:2022:LREC,
+  author    = {Romim, Nauros  and  Ahmed, Mosahed  and  Islam, Md Saiful  and  Sen Sharma, Arnab  and  Talukder, Hriteshwar  and  Amin, Mohammad Ruhul},
+  title     = {BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {5153--5162},
+  abstract  = {Social media platforms and online streaming services have spawned a new breed of Hate Speech (HS). Due to the massive amount of user-generated content on these sites, modern machine learning techniques are found to be feasible and cost-effective to tackle this problem. However, linguistically diverse datasets covering different social contexts in which offensive language is typically used are required to train generalizable models. In this paper, we identify the shortcomings of existing Bangla HS datasets and introduce a large manually labeled dataset BD-SHS that includes HS in different social contexts. The labeling criteria were prepared following a hierarchical annotation process, which is the first of its kind in Bangla HS to the best of our knowledge. The dataset includes more than 50,200 offensive comments crawled from online social networking sites and is at least 60\% larger than any existing Bangla HS datasets. We present the benchmark result of our dataset by training different NLP models resulting in the best one achieving an F1-score of 91.0\%. In our experiments, we found that a word embedding trained exclusively using 1.47 million comments from social media and streaming sites consistently resulted in better modeling of HS detection in comparison to other pre-trained embeddings. Our dataset and all accompanying codes is publicly available at github.com/naurosromim/hate-speech-dataset-for-Bengali-social-media},
+  url       = {https://aclanthology.org/2022.lrec-1.552}
 }
+
 ```
